@@ -18,7 +18,6 @@ const onSearchFormSubmit = event => {
   event.preventDefault();
 
   const searchQuery = inputEl.value.trim();
-  console.log(searchQuery);
 
   if (searchQuery === '' || searchQuery === null) {
     galleryEl.innerHTML = '';
